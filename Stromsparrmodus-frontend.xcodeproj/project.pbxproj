@@ -28,6 +28,8 @@
 		51E6CB792B5928AA00F714CB /* AdminPaymentMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6CB782B5928AA00F714CB /* AdminPaymentMonitoringView.swift */; };
 		51E6CB7B2B5928CA00F714CB /* AdminContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6CB7A2B5928C900F714CB /* AdminContentView.swift */; };
 		51E6CB7D2B59297300F714CB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6CB7C2B59297300F714CB /* RootView.swift */; };
+		E102AD632B62729300143033 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102AD622B62729300143033 /* HeaderView.swift */; };
+		E19CFCBE2B625356007DA87C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CFCBD2B625356007DA87C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		51E6CB782B5928AA00F714CB /* AdminPaymentMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPaymentMonitoringView.swift; sourceTree = "<group>"; };
 		51E6CB7A2B5928C900F714CB /* AdminContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminContentView.swift; sourceTree = "<group>"; };
 		51E6CB7C2B59297300F714CB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E102AD622B62729300143033 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E19CFCBD2B625356007DA87C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		511CB2022B4EA656004874F7 /* Stromsparrmodus-frontend */ = {
 			isa = PBXGroup;
 			children = (
+				E102AD5F2B62708900143033 /* LoginV */,
 				511CB2032B4EA656004874F7 /* Stromsparrmodus_frontendApp.swift */,
 				51E6CB7C2B59297300F714CB /* RootView.swift */,
 				511CB2052B4EA656004874F7 /* ContentView.swift */,
@@ -239,6 +244,15 @@
 				51E6CB7A2B5928C900F714CB /* AdminContentView.swift */,
 			);
 			path = Admin;
+			sourceTree = "<group>";
+		};
+		E102AD5F2B62708900143033 /* LoginV */ = {
+			isa = PBXGroup;
+			children = (
+				E19CFCBD2B625356007DA87C /* LoginView.swift */,
+				E102AD622B62729300143033 /* HeaderView.swift */,
+			);
+			path = LoginV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				511CB2062B4EA656004874F7 /* ContentView.swift in Sources */,
+				E102AD632B62729300143033 /* HeaderView.swift in Sources */,
 				51E6CB732B59286200F714CB /* AdminUsersView.swift in Sources */,
 				511CB2302B4EA889004874F7 /* AccountDetailsView.swift in Sources */,
 				51E6CB702B59283A00F714CB /* AdminDashboardView.swift in Sources */,
@@ -381,6 +396,7 @@
 				511CB2042B4EA656004874F7 /* Stromsparrmodus_frontendApp.swift in Sources */,
 				51E6CB7D2B59297300F714CB /* RootView.swift in Sources */,
 				511CB2322B4EA89F004874F7 /* EnergyUsageView.swift in Sources */,
+				E19CFCBE2B625356007DA87C /* LoginView.swift in Sources */,
 				51E6CB762B59288400F714CB /* AdminEnergyUsageView.swift in Sources */,
 				511CB2342B4EA8C8004874F7 /* EnergyUsageBarChartView.swift in Sources */,
 				51E6CB7B2B5928CA00F714CB /* AdminContentView.swift in Sources */,

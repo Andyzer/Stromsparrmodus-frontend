@@ -36,3 +36,7 @@ struct AdminUserEnergyUsageDetailView: View {
         }
     }
 }
+
+#Preview {
+    AdminEnergyUsageView()
+}
