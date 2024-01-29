@@ -7,33 +7,32 @@
 import SwiftUI
 
 struct LoginView: View {
-    
-    @State var username = ""
-    @State var password = ""
+    @StateObject var viewModel = LoginViewViewModel();
     
     var body: some View {
         VStack {
             // Header
             HeaderView()
+            
+            
+            
             // Login Form
             Form {
-                TextField("Username", text: $username)
+                
+                TextField("Username", text: $viewModel.username)
                     .textFieldStyle(DefaultTextFieldStyle())
-                SecureField("Password", text: $password)
+                
+                SecureField("Password", text: $viewModel.password)
                     .textFieldStyle(DefaultTextFieldStyle())
-                Button(action: {
-                    print("Login")
-                }, label: {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(.blue)
-                        Text("Log In")
-                            .foregroundStyle(Color.white)
-                            .bold()
-                    }
-                    .frame(height: 50)
-                })
+                
+                CustomButton(title: "Login",
+                             background: .blue
+                ) {
+                    viewModel.login()
+                }
+                .padding()
             }
+
             
             
             
@@ -47,6 +46,7 @@ struct LoginView: View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 10)
                             .foregroundColor(.blue)
+                            .opacity(0.6)
                         Text("Register")
                             .foregroundStyle(Color.white)
                             .bold()

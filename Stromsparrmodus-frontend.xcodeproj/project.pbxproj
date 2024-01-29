@@ -30,6 +30,8 @@
 		51E6CB7D2B59297300F714CB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6CB7C2B59297300F714CB /* RootView.swift */; };
 		E102AD632B62729300143033 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102AD622B62729300143033 /* HeaderView.swift */; };
 		E19CFCBE2B625356007DA87C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CFCBD2B625356007DA87C /* LoginView.swift */; };
+		E1A4681F2B65291C00D29B20 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4681E2B65291C00D29B20 /* CustomButton.swift */; };
+		E1A468212B652B8E00D29B20 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A468202B652B8E00D29B20 /* LoginViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		51E6CB7C2B59297300F714CB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		E102AD622B62729300143033 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E19CFCBD2B625356007DA87C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E1A4681E2B65291C00D29B20 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E1A468202B652B8E00D29B20 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +255,8 @@
 			children = (
 				E19CFCBD2B625356007DA87C /* LoginView.swift */,
 				E102AD622B62729300143033 /* HeaderView.swift */,
+				E1A4681E2B65291C00D29B20 /* CustomButton.swift */,
+				E1A468202B652B8E00D29B20 /* LoginViewViewModel.swift */,
 			);
 			path = LoginV;
 			sourceTree = "<group>";
@@ -386,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				511CB2062B4EA656004874F7 /* ContentView.swift in Sources */,
+				E1A4681F2B65291C00D29B20 /* CustomButton.swift in Sources */,
 				E102AD632B62729300143033 /* HeaderView.swift in Sources */,
 				51E6CB732B59286200F714CB /* AdminUsersView.swift in Sources */,
 				511CB2302B4EA889004874F7 /* AccountDetailsView.swift in Sources */,
@@ -399,6 +406,7 @@
 				E19CFCBE2B625356007DA87C /* LoginView.swift in Sources */,
 				51E6CB762B59288400F714CB /* AdminEnergyUsageView.swift in Sources */,
 				511CB2342B4EA8C8004874F7 /* EnergyUsageBarChartView.swift in Sources */,
+				E1A468212B652B8E00D29B20 /* LoginViewViewModel.swift in Sources */,
 				51E6CB7B2B5928CA00F714CB /* AdminContentView.swift in Sources */,
 				511CB2402B4EAC90004874F7 /* PaymentSummaryView.swift in Sources */,
 				51E6CB792B5928AA00F714CB /* AdminPaymentMonitoringView.swift in Sources */,
